@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+  background-color: #002046;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body>img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
+
+/* ESTILOS NÚMERO SECRETO */
+.numero-secreto {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.numeroSecreto {
+  font-size: 500px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  color: rgba(4, 217, 255, 0.4);
+}

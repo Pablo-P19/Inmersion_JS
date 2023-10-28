@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafíos 04 🤔</title>
+</head>
+
+<body>
+    <section class="cabecera">
+        <div class="container">
+            <h1 class="page-title">Aluraflix</h1>
+
+            <img src="https://user-images.githubusercontent.com/121910576/257301160-11f2dba6-23f2-4a8a-8c14-10ca8825acc8.png"
+                class="page-logo" alt="">
+
+            <p class="page-subtitle">¿Cuál es tu serie favorita?</p>
+
+            <form class="form-wrapper" onsubmit="agregarSerie(); return false;">    <!-- false para que no recargue la página -->
+                <input type="text" id="serie" name="serie" placeholder="Agrega la dirección de la imagen">
+                <input type="text" id="linkTrailer" name="link" placeholder="Agrega el link del trailer">
+                <button type="submit">Agregar serie</button>
+            </form>
+        </div>
+    </section>
+
+    <a href="https://www.aluracursos.com/" target="_blank">
+        <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt=""
+            class="alura-latam-logo">
+    </a>
+
+    <section class="imgs" id="listaSeries">
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

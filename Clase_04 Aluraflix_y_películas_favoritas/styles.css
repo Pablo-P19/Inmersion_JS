@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://images6.alphacoders.com/130/1301851.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(104, 104, 104, 0.5);
+    border-radius: 10px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 30px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#listaSeries img {
+    margin: 10px;
+    max-height: 250px;
+}
+
+.form-wrapper {
+    margin: 0 0 15px;
+}
+
+.form-wrapper input {
+    display: block;
+    background-color: rgb(245, 245, 245, 0.8);
+    width: 400px;
+    margin: 8px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-wrapper input:focus {
+    outline-color: #1e8fda;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #1e8fda;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+.btnEliminar {
+    color: #ffffff;
+    background-color: rgba(243, 9, 9, 0.26);
+    /* background: none; */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnEliminar:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.932);
+    color: red;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgs img:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+     /* Ajusta los valores según tus preferencias:
+       - El primer valor (0) es el desplazamiento horizontal de la sombra.
+       - El segundo valor (0) es el desplazamiento vertical de la sombra.
+       - El tercer valor (20px) es el desenfoque de la sombra.
+       - El cuarto valor (rgba(255, 255, 255, 0.5)) es el color y la opacidad de la sombra.
+    */
+}

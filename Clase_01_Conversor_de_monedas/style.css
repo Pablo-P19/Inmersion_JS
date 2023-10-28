@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+input:focus {
+    outline-color: rgb(92, 189, 189);
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 300px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.desafios {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align:left;
+    padding-bottom: 10px;
+}
+
+.lista {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* estilos section monedas */
+.monedas {
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset-pesos {
+    height: 15rem;
+    color: #ffffff;
+    font-weight: 600;
+    border-color: aqua;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.legend {
+    font-size: 35px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.caja-pesos {
+    margin-top: 20px;
+}
+
+.result-conversion {
+    margin-top: 20px;
+}
+
+.result-inputs {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.nombre {
+    color: aqua;
+}
+
+.dolar {
+    margin-right: 40px;
+}
+
+.result {
+    color: aqua;
+}
+
+/* estilos section temperatura */
+
+.temperatura{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.temps {
+    margin-top: 30px;
+}
+
+.input-cel,.input-far,.input-kel{
+    width: 180px;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fieldset-temp {
+    height: 12rem;
+    color: #ffffff;
+    font-weight: 600;
+    border-color: aqua;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.celcius{
+    font-size: 40px;
+}
+
+.fahrenheit,.kelvin{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 250px;
+}
+
+.alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
